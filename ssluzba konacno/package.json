@@ -1,0 +1,20 @@
+{
+  "name": "ssluzba",
+  "version": "0.0.0",
+  "description": "Description for ssluzba",
+  "private": true,
+  "dependencies": {
+    "bower": "^1.6.3",
+    "protractor": "2.5.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-protractor": "1.0.0",
+    "jasmine-spec-reporter": "^2.5.0",
+    "lodash": "3.10.1",
+    "protractor-jasmine2-html-reporter": "0.0.6"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/protractor/bin/webdriver-manager update"
+  }
+}

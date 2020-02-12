@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+  <test verbose="2" name="Zadatak1">
+       <classes>
+   
+      <class name="domaci.Zadatak1">
+      
+        <methods>
+            <include name="login"/>
+            
+        </methods>
+        </class>
+       <!-- TmrsLogin.TmrsLogin1 -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
